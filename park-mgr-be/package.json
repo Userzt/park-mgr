@@ -1,0 +1,17 @@
+{
+  "name": "park-mgr-be",
+  "version": "1.0.0",
+  "description": "毕设项目的服务端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "毕设"
+  ],
+  "author": "zhangtao",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.1"
+  }
+}
