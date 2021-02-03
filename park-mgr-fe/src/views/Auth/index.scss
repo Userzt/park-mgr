@@ -1,0 +1,45 @@
+.auth{
+  .bg{
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../image/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .title-info{
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+
+    img{
+      width: 60px;
+      height: 60px;
+    }
+
+    h2{
+      margin: 0 0 0 18px;
+    }
+  }
+
+  .form{
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .item{
+    margin-bottom: 20px;
+
+    button{
+      width: 100%;
+    }
+  }
+}
